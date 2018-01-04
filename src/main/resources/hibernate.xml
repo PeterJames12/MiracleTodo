@@ -13,7 +13,7 @@
         <property name="hbm2ddl.auto">update</property>
         <property name="current_session_context_class">thread</property>
 
-        <!--<mapping class=""/> todo set class entity -->
+        <mapping class="model.User"/>
         <!--<mapping class=""/> todo set class entity -->
 
     </session-factory>

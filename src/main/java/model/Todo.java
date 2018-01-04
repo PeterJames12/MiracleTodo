@@ -17,16 +17,12 @@ public class Todo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @Column(name = "name")
     private String name;
-
     @Column(name = "status")
     private String status;
-
     @Column(name = "creationDate")
     private String creationDate;
-
     @Column(name = "user_id")
     private Long userId;
 }

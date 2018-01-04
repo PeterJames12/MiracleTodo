@@ -1,6 +1,5 @@
 package model;
 
-
 import lombok.*;
 import org.hibernate.annotations.OptimisticLockType;
 import javax.persistence.*;
@@ -17,13 +16,10 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @Column(name = "name")
     private String name;
-
     @Column( name = "password")
     private String password;
-
     @Column (name = "email")
     private String email;
 }

@@ -1,6 +1,9 @@
 package service;
 
+import model.User;
+
 import java.sql.SQLException;
+import java.util.List;
 
 public interface UserService {
 
@@ -11,5 +14,7 @@ public interface UserService {
     User update(User user) throws SQLException;
 
     void delete(int usrId) throws SQLException;
+
+    boolean checkPass(String email, String password);
 
 }

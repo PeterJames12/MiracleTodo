@@ -11,7 +11,7 @@
                 prefWidth="83.0" text="Add"/>
         <Button fx:id="CloseButton" layoutX="431.0" layoutY="18.0" mnemonicParsing="false" prefHeight="25.0"
                 prefWidth="75.0" text="Close"/>
-        <TableView fx:id="TableView" layoutX="7.0" layoutY="52.0" prefHeight="300.0" prefWidth="499.0">
+        <TableView fx:id="tableView" layoutX="7.0" layoutY="52.0" prefHeight="300.0" prefWidth="499.0">
             <columns>
                 <TableColumn fx:id="IDTableColumn" prefWidth="35.0" text="ID"/>
                 <TableColumn fx:id="NameTableColumn" prefWidth="116.5" text="Name"/>

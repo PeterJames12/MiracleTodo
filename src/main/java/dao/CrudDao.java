@@ -15,5 +15,5 @@ public interface CrudDao<T> {
     /**
      * delete entity by given id.
      */
-    T delete(T entity);
+    void delete(T entity);
 }

@@ -9,6 +9,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class AddPageController implements Initializable {
+
     @FXML
     private TextField NameTextField;
     @FXML

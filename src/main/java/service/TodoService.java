@@ -1,8 +1,12 @@
 package service;
 
+import model.Todo;
+
 import java.sql.SQLException;
+import java.util.List;
 
 public interface TodoService {
+
     List<Todo> findAll() throws SQLException;
 
     Todo save(Todo user) throws SQLException;
