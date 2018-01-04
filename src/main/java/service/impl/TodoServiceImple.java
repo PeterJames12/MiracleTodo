@@ -27,4 +27,9 @@ public class TodoServiceImple implements TodoService {
     public void delete(int usrId) throws SQLException {
 
     }
+
+    @Override
+    public List<Todo> getTodoByUserId() throws SQLException {
+        return null;
+    }
 }

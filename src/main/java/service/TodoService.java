@@ -14,4 +14,6 @@ public interface TodoService {
     Todo update(Todo user) throws SQLException;
 
     void delete(int usrId) throws SQLException;
+
+    List<Todo> getTodoByUserId() throws SQLException;
 }
