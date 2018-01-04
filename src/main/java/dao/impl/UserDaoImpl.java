@@ -18,7 +18,7 @@ public class UserDaoImpl extends CrudDaoImpl<User> implements UserDao {
         final CriteriaQuery<User> query = criteriaBuilder.createQuery(User.class);
         final Root<User> root = query.from(User.class);
         query.select(root)
-            .where(criteriaBuilder.equal(root.get("email"), email));
+                .where(criteriaBuilder.equal(root.get("email"), email));
         final User user = session.createQuery(query).getSingleResult();
         session.close();
         return user;

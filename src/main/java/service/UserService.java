@@ -13,7 +13,7 @@ public interface UserService {
 
     User update(User user) throws SQLException;
 
-    void delete(int usrId) throws SQLException;
+    void delete(User user) throws SQLException;
 
     boolean checkPass(String email, String password);
 
